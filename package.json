@@ -1,6 +1,6 @@
 {
   "name": "sequentalreader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Sequentally read arbitrary chunks of data from ReadableStream",
   "main": "index.js",
   "scripts": {
