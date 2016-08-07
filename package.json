@@ -1,0 +1,22 @@
+{
+  "name": "sequentalreader",
+  "version": "1.0.0",
+  "description": "Sequentally read arbitrary chunks of data from ReadableStream",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shabarin/sequentalreader.git"
+  },
+  "keywords": [
+    "ReadableStream"
+  ],
+  "author": "Ivan Shabarin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shabarin/sequentalreader/issues"
+  },
+  "homepage": "https://github.com/shabarin/sequentalreader#readme"
+}
