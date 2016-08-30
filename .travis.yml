@@ -1,9 +1,6 @@
+os: linux
 language: node_js
 node_js:
   - "6"
-  - "6.1"
-  - "4.4"
-  - "5.11"
-  - "0.6"
-  - "iojs"
+  - "4"
 script: npm run coverage
