@@ -4,7 +4,8 @@
   "description": "Sequentally read arbitrary chunks of data from ReadableStream",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha test/test.js"
+    "test": "./node_modules/mocha/bin/mocha test/test.js",
+    "coverage": "istanbul cover _mocha -- -R spec"
   },
   "repository": {
     "type": "git",
@@ -20,7 +21,9 @@
   },
   "homepage": "https://github.com/shabarin/sequentalreader#readme",
   "devDependencies": {
+    "blanket": "^1.2.3",
     "chai": "^3.5.0",
+    "istanbul": "^0.4.5",
     "mocha": "^3.0.2",
     "stream": "0.0.2"
   }
