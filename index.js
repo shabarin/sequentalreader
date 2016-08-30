@@ -2,6 +2,11 @@
 
 module.exports = getStreamSequentalReader;
 
+/**
+ *
+ * @param stream
+ * @returns {Function}
+ */
 function getStreamSequentalReader(stream) {
 
     let eof = false;
